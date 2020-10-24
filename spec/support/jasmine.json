@@ -1,0 +1,13 @@
+{
+  "spec_dir": "src",
+  "spec_files": [
+    "**/*.test.{jsx,js,ts}"
+  ],
+	"helpers": [
+  		"helpers/babel.js",
+  		"helpers/**/*.{js,ts}",
+			"../node_modules/@babel/register/lib/node.js"
+  ],
+  "stopSpecOnExpectationFailure": false,
+  "random": true
+}

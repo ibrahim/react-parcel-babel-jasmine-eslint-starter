@@ -1,0 +1,30 @@
+{
+  "name": "stories",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "test": "cross-env NODE_ENV=test jasmine"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@babel/eslint-parser": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "@testing-library/react": "^11.1.0",
+    "cross-env": "^7.0.2",
+    "ignore-styles": "^5.0.1",
+    "jasmine": "^3.6.2",
+    "jsdom": "^16.4.0",
+    "less": "^3.12.2"
+  }
+}
